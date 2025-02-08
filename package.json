@@ -1,0 +1,25 @@
+{
+  "name": "discord-credit-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot with a credit system for managing products and purchases",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "credit-system"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+} 
